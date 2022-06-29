@@ -1,0 +1,27 @@
+{
+  "name": "@codianz/as_",
+  "version": "0.0.1",
+  "description": "Initialize the object type-safely in the right section.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "deploy": "npm publish --access=public"
+  },
+  "keywords": [
+    "initialize",
+    "type-safe",
+    "TypeScript"
+  ],
+  "author": "Terukazu Inoue",
+  "license": "MIT",
+  "homepage": "https://github.com/CODIANZ/npm.as_",
+  "typings": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CODIANZ/npm.as_.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
